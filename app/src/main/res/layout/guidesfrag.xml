@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/header"
+        android:background="#1744a9">
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rivered conditions"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/apple"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There are some tips and suggestions for those people who will be in danger zone or stuck in flood:
+\n 1) If you are in danger zone, and you got notifications to leave current place, then never ignore these notifications and move towards suggested direction
+\n 2) If you are max-danger zone then never forget to check your status and suggestions of multiple vehicle, if you have one of that
+\n 3) In statistics, you can also select vehicle icon to know how much fast, you can move to save zone
+\n 4) It also instruct you through displaying map and trigger you on it
+\n 5) And if you are in flood, move to highest places as soon as possible "/>
+
+    </ScrollView>
+
+    </RelativeLayout>
+</RelativeLayout>

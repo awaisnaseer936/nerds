@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bluehat.lifesaver.AboutUs"
+    android:background="@drawable/skin">
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:id="@+id/log"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"/>
+    <TextView
+        android:layout_below="@+id/log"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team NERDS\n\nBilal Bajwa\nAwais Naseer\nAnmol Shahid
+"
+        android:id="@+id/team"/>
+    <TextView
+        android:textSize="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1744a9"
+        android:textStyle="bold"
+        android:id="@+id/nasa"
+        android:text="NASA space apps challenge 2017"/>
+
+
+</RelativeLayout>
