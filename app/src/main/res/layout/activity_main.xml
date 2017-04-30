@@ -25,6 +25,8 @@
         android:layout_height="fill_parent"
         android:layout_below="@+id/header"
         android:background="@drawable/menu_bg">
+        <!--android:background="@drawable/base_skin"-->
+
 
         <ImageView
             android:layout_width="wrap_content"
